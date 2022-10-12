@@ -1,0 +1,16 @@
+{
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.ObjectNamePrefix": "NT_",
+  
+  
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers":
+     [
+         "${CodeCop}",
+         "${UICop}",
+         "${PerTenantExtensionCop}"
+    ],
+    "files.autoSave": "afterDelay"
+}
